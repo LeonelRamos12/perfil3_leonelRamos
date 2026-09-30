@@ -4,7 +4,7 @@
     "slug": "evaluacionMovil",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/rickyRicaldone.jpg",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -15,10 +15,16 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.leonelRamos.evaluacion"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f80fc8af-9bf4-4d4e-9529-9667692539d0"
+      }
     }
   }
 }
